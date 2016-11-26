@@ -1,0 +1,27 @@
+{
+  "name": "rm-all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanostrow/ethano.git"
+  },
+  "author": "Ethan Ostrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanostrow/ethano/issues"
+  },
+  "homepage": "https://github.com/ethanostrow/ethano",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
