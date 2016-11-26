@@ -1,5 +1,5 @@
 // server.js
-
+require ('newrelic');
 // BASE SETUP
 // ==============================================
 
