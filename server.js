@@ -13,6 +13,8 @@ const router = express.Router();
 // https://github.com/sendgrid/sendgrid-nodejs
 var helper = require('sendgrid').mail
 
+from_email = new helper.Email("ethan.ostrow7@gmail.com")
+to_email = new helper.Email("ethanekat@gmail.com")
 subject = "Sending with SendGrid is Fun"
 content = new helper.Content("text/plain", "and easy to do anywhere, even with Node.js")
 mail = new helper.Mail(from_email, subject, to_email, content)
