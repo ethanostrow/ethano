@@ -4,11 +4,13 @@ require ('newrelic');
 // ==============================================
 
 const express = require('express');
+const favicon = require('serve-favicon');
 
 const app = express();
 const port = process.env.PORT || 3000;
 const router = express.Router();
 
+app.use(favicon(__dirname + '/public/assets/favicon.ico'));
 
 // home page route (http://localhost:3000)
 app.use(express.static(__dirname + '/public'));
