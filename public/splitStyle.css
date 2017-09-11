@@ -1,0 +1,272 @@
+/* Devices so small you probably can't see anything, so we don't render anything */
+
+@media (max-width: 320px) {
+    body {
+        background: url("assets/small_steps.png") center;
+        font-family: 'Roboto';
+        color: transparent;
+        font-size: 40px;
+    }
+    a {
+        display: none;
+    }
+    body::before {
+        content: "Sceen sizes smaller than 320px not supported";
+        color: #333333;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 320px) {
+    body {
+        font-family: 'Roboto';
+        color: white;
+    }
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    span {
+        color: #456990;
+    }
+    span:hover {
+        border-bottom: 10px solid;
+        transition: all ease-in-out .25s;
+    }
+    .top, .bottom {
+        position: fixed;
+        left: 0;
+        right: 0;
+        height: 50%;
+        max-width: 100%;
+    }
+    .top {
+        top: 0;
+        background: url("assets/small_steps.png") center;
+        color: #333333;
+        border-bottom: 10px solid #456990;
+    }
+    .bottom {
+        bottom: 0;
+        background: url("assets/congruent_outline.png") center;
+        border-top: 20px solid #456990;
+    }
+    .logo {
+        width: 320px;
+        height: 70px;
+        background: #456990;
+        color: white;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        margin: -35px 0 0 -160px;
+        z-index: 2;
+        font-family: 'Roboto';
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        max-width: 100%;
+    }
+    p {
+        z-index: 1;
+        font-size: 30px;
+        text-align: center;
+    }
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    body {
+        font-family: 'Roboto';
+        color: white;
+    }
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    span {
+        color: #456990;
+    }
+    span:hover {
+        border-bottom: 10px solid;
+        transition: all ease-in-out .25s;
+    }
+    .top, .bottom {
+        position: fixed;
+        left: 0;
+        right: 0;
+        height: 50%;
+        max-width: 100%;
+    }
+    .top {
+        top: 0;
+        background: url("assets/small_steps.png") center;
+        color: #333333;
+        border-bottom: 10px solid #456990;
+    }
+    .bottom {
+        bottom: 0;
+        background: url("assets/congruent_outline.png") center;
+        border-top: 20px solid #456990;
+    }
+    .logo {
+        width: 400px;
+        height: 87.5px;
+        background: #456990;
+        color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -43.75px 0 0 -200px;
+        z-index: 2;
+        font-family: 'Roboto';
+        font-size: 75px;
+        text-align: center;
+        font-weight: bold;
+        max-width: 100%;
+    }
+    p {
+        z-index: 1;
+        font-size: 45px;
+        text-align: center;
+    }
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-family: 'Roboto';
+        color: white;
+    }
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    span {
+        color: #456990;
+    }
+    span:hover {
+        border-bottom: 10px solid;
+        transition: all ease-in-out .25s;
+    }
+    .top, .bottom {
+        position: fixed;
+        left: 0;
+        right: 0;
+        height: 50%;
+    }
+    .top {
+        top: 0;
+        background: url("assets/small_steps.png") center;
+        color: #333333;
+        border-bottom: 15px solid #456990;
+    }
+    .bottom {
+        bottom: 0;
+        background: url("assets/congruent_outline.png") center;
+        border-top: 25px solid #456990;
+    }
+    .logo {
+        width: 500px;
+        height: 100px;
+        background: #456990;
+        color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -50px 0 0 -250px;
+        z-index: 2;
+        font-family: 'Roboto';
+        font-size: 80px;
+        text-align: center;
+        font-weight: bold;
+    }
+    p {
+        z-index: 1;
+        font-size: 60px;
+        text-align: center;
+    }
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    body {
+        font-family: 'Roboto';
+        color: white;
+    }
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    span {
+        color: #456990;
+    }
+    span:hover {
+        border-bottom: 10px solid;
+        transition: all ease-in-out .25s;
+    }
+    .top, .bottom {
+        position: fixed;
+        width: : 50%;
+    }
+    .top {
+        float: left;
+        background: url("assets/small_steps.png") center;
+        color: #333333;
+        border-bottom: 10px solid #456990;
+    }
+    .bottom {
+        float: right;
+        background: url("assets/congruent_outline.png") center;
+        border-top: 20px solid #456990;
+    }
+    .logo {
+        width: 500px;
+        height: 100px;
+        background: #456990;
+        color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -50px 0 0 -250px;
+        z-index: 2;
+        font-family: 'Roboto';
+        font-size: 80px;
+        text-align: center;
+        font-weight: bold;
+    }
+    p {
+        z-index: 1;
+        font-size: 60px;
+        text-align: center;
+    }
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
