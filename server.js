@@ -14,6 +14,9 @@ app.use(favicon(__dirname + '/public/assets/favicon.ico'));
 
 // home page route (http://localhost:3000)
 app.use(express.static(__dirname + '/public'));
+app.get('/vpn', function (req, res) {
+  res.sendfile('public/betavpn.html');
+});
 app.get('/', function (req, res) {
   res.sendfile('index.html');
 });

@@ -1,0 +1,233 @@
+/* Devices so small you probably can't see anything, so we render the bare minimum */
+
+@media (max-width: 320px) {
+  body {
+    font-family: 'Roboto';
+    color: white;
+    background: url("assets/congruent_outline.png") center;
+    text-transform: uppercase;
+  }
+  nav {
+    margin: 20px 20px 40px 20px;
+    font-size: 30px;
+    font-size: 4.5vw;
+    font-weight: bold;
+  }
+  nav>a {
+    display: inline-block;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .right {
+    float: right;
+  }
+  a:hover {
+    border-bottom: 5px solid;
+    color: #456990;
+    transition: all ease-in-out .25s;
+    cursor: pointer;
+  }
+  span {
+    font-size: 50vw;
+    color: #456990;
+  }
+  /*footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 15px;
+    font-size: .8vw;*/
+  footer:after {
+    content: "your device/browser size makes this site render poorly";
+  }
+  main {
+    text-align: center;
+  }
+  .digital-freedom {
+    margin: 50px 20px 50px 20px;
+  }
+  .btn {
+    background: #456990;
+    padding: 10px;
+  }
+  .btn:hover {
+    color: white;
+    border: none;
+  }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 320px) {
+  body {
+    font-family: 'Roboto';
+    color: white;
+    background: url("assets/congruent_outline.png") center;
+    text-transform: uppercase;
+  }
+  nav {
+    margin: 20px 20px 40px 20px;
+    font-size: 30px;
+    font-size: 4.5vw;
+    font-weight: bold;
+  }
+  nav>a {
+    display: inline-block;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .right {
+    float: right;
+  }
+  a:hover {
+    border-bottom: 5px solid;
+    color: #456990;
+    transition: all ease-in-out .25s;
+    cursor: pointer;
+  }
+  span {
+    font-size: 50vw;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 15px;
+    font-size: .8vw;
+  }
+  main {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  body {
+    font-family: 'Roboto';
+    color: white;
+    background: url("assets/congruent_outline.png") center;
+    text-transform: uppercase;
+  }
+  nav {
+    margin: 20px;
+    font-size: 4.5vw;
+    font-weight: bold;
+  }
+  nav>a {
+    display: inline-block;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .right {
+    float: right;
+  }
+  a:hover {
+    border-bottom: 10px solid;
+    color: #456990;
+    transition: all ease-in-out .25s;
+    cursor: pointer;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 15px;
+    font-size: .8vw;
+  }
+  main {
+    text-align: center;
+  }
+}
+
+
+/* Small Devices, Tablets*/
+
+@media only screen and (min-width: 740px) {
+  body {
+    font-family: 'Roboto';
+    color: white;
+    background: url("assets/congruent_outline.png") center;
+    text-transform: uppercase;
+  }
+  nav {
+    margin: 20px;
+    font-size: 4.5vw;
+    font-weight: bold;
+  }
+  nav>a {
+    display: inline-block;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .right {
+    float: right;
+  }
+  a:hover {
+    border-bottom: 10px solid;
+    color: #456990;
+    transition: all ease-in-out .25s;
+    cursor: pointer;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 15px;
+    font-size: .8vw;
+  }
+  main {
+    text-align: center;
+  }
+}
+
+
+/* Medium Devices, Desktops*/
+
+@media only screen and (min-width: 1500px) {
+  body {
+    overflow: hidden;
+    font-family: 'Roboto';
+    color: white;
+    background: url("assets/congruent_outline.png") center;
+    text-transform: uppercase;
+  }
+  nav {
+    margin: 20px;
+    font-size: 1.8vw;
+    font-weight: bold;
+  }
+  nav>a {
+    display: inline-block;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .right {
+    float: right;
+  }
+  a:hover {
+    border-bottom: 10px solid;
+    color: #456990;
+    transition: all ease-in-out .25s;
+    cursor: pointer;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 15px;
+    font-size: .8vw;
+  }
+  main {
+    text-align: center;
+  }
+}
