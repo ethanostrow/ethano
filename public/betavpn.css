@@ -46,7 +46,7 @@
     text-align: center;
   }
   .digital-freedom {
-    margin: 50px 20px 50px 20px;
+    margin: 50px 20px 100px 20px;
   }
   .btn {
     background: #456990;
@@ -55,6 +55,9 @@
   .btn:hover {
     color: white;
     border: none;
+  }
+  ul {
+    text-align: left;
   }
 }
 
@@ -107,7 +110,7 @@
     text-align: center;
   }
   .digital-freedom {
-    margin: 50px 20px 50px 20px;
+    margin: 50px 20px 100px 20px;
   }
   .btn {
     background: #456990;
@@ -116,6 +119,9 @@
   .btn:hover {
     color: white;
     border: none;
+  }
+  ul {
+    text-align: left;
   }
 }
 
@@ -156,6 +162,9 @@
   }
   main {
     text-align: center;
+  }
+  ul {
+    text-align: left;
   }
 }
 
@@ -200,6 +209,9 @@
   main {
     text-align: center;
   }
+  ul {
+    text-align: left;
+  }
 }
 
 
@@ -243,5 +255,8 @@
   }
   main {
     text-align: center;
+  }
+  ul {
+    text-align: left;
   }
 }
