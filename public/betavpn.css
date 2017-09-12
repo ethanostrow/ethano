@@ -172,6 +172,9 @@
   ul {
     text-align: left;
   }
+  .too-big {
+    display: none;
+  }
 }
 
 
