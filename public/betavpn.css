@@ -92,16 +92,30 @@
   }
   span {
     font-size: 50vw;
+    color: #456990;
   }
-  footer {
+  /*footer {
     position: absolute;
     bottom: 0;
     left: 0;
     margin-left: 15px;
-    font-size: .8vw;
+    font-size: .8vw;*/
+  footer:after {
+    content: "your device/browser size makes this site render poorly";
   }
   main {
     text-align: center;
+  }
+  .digital-freedom {
+    margin: 50px 20px 50px 20px;
+  }
+  .btn {
+    background: #456990;
+    padding: 10px;
+  }
+  .btn:hover {
+    color: white;
+    border: none;
   }
 }
 
