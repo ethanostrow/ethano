@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/ethanostrow/ethano",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.5.2",
     "grunt-contrib-less": "^1.4.0"
   },
   "dependencies": {
